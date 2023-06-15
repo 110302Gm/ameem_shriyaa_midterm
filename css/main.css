@@ -102,7 +102,7 @@ header {
   body {
     cursor: url('https://ionicframework.com/img/finger.png'), auto;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&display=swap'); */
 
 body {
   font-family: sans-serif;
@@ -154,9 +154,9 @@ h1 {
 }
 
 img {
-  width: 100%
-  z-index: -1;
-  margin: auto;
+  width: 100%;
+  z-index:-1;
+  margin:auto;
   transform: scale(1);
   transition:all ease-in-out 0.5s;
 }
@@ -220,12 +220,10 @@ img {
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
-    font: 300 60px : sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-  }
-  
+    font: 300 60px :sans-serif color:#fff;
+    text-transform:shadow ;
+    letter-spacing:6px ;
+  } 
   .contact-wrapper {
     display: flex;
     flex-direction: row;
@@ -373,7 +371,7 @@ img {
   .social-media-list li:hover:after {
     opacity: 1;  
     transform: scale(1.12);
-    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+
   }
   
   .social-media-list li:hover a {
