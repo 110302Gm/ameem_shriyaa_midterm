@@ -190,6 +190,37 @@ header {
     color: #000000;
     line-height: 2.5;
   }
+  
+  .findStores {
+    text-align: center;
+    margin-left: 72px;
+    margin-right: 72px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 2.5;
+  }
+
+  /* .places {
+    text-align: center;
+    margin-left: 72px;
+    margin-right: 72px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 2.5;
+  } */
+
 
   .places {
     text-align: center;
