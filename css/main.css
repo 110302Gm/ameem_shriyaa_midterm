@@ -1,0 +1,122 @@
+/* General */
+
+.hidden {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #525928;
+    /* background-color: transparent; */
+}
+
+.main-nav {
+    height: 90px;
+}
+  
+  .logo {
+    color: #D8D1CA;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
+  
+  .navlinks {
+    list-style: none;
+    float: right;
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navlinks li {
+    display: inline-block;
+    margin: 0px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+  
+  .navlinks li a {
+    color: #D8D1CA;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s linear 0s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  
+  .navlinks li a:hover {
+    color: #828C3E;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #828C3E;
+  }
+  
+  li a.contact {
+    background-color: #9AA342;
+    padding: 9px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    border-bottom: none;
+  }
+  
+  li a.contact:hover {
+    background-color: #738C3E;
+    color: #BD9C54;
+    border-bottom: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  .menu-btn {
+    font-size: 25px;
+    color: #E4E3DE;
+    float: right;
+    line-height: 90px;
+    margin-right: 40px;
+    display: none;
+    cursor: pointer;
+  }
+
+  /* Home Page */
+
+  /* Product Page */
+
+  /* Location Page */
+  
+  .locationTitle {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+
+  /* Blog Page */
+
+  /* Events Page */
+
+  /* About Page */
+
+  /* Contact Page */
