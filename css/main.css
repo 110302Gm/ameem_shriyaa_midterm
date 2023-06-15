@@ -154,11 +154,11 @@ h1 {
 }
 
 img {
-  width: 100%;
+  width: 100%
   z-index: -1;
   margin: auto;
   transform: scale(1);
-  transition: all ease-in-out 0.5s;
+  transition:all ease-in-out 0.5s;
 }
 
 .media:hover img {
@@ -188,20 +188,6 @@ img {
     height: 70%;
   }
 }
-body {
-  background: #eaeaed;
-  color: #fff;
-  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-}
-footer {
-  background: #828C3E;
-  bottom: 0;
-  left: 0;
-  padding: 20px 30px;
-  position: fixed;
-  right: 0;
-  text-align: center;
-}
 
   /* Product Page */
 
@@ -223,12 +209,7 @@ footer {
   /* About Page */
 
   /* Contact Page */
-  body {
-    margin: 0;
-    padding: 0;
-    background-color:rgb(179, 193, 167);
-    padding-bottom: 100px;
-  }
+ 
   
   #contact {
     width: 100%;
@@ -239,7 +220,7 @@ footer {
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
-    font: 300 60px , sans-serif;
+    font: 300 60px : sans-serif;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -252,21 +233,21 @@ footer {
     margin: 0 auto;
     padding: 20px;
     position: relative;
-    max-width: 740px;
+    max-width: 840px;
   }
   
   /* Left contact page */
   .form-horizontal {
     /*float: left;*/
     max-width: 400px;
-    font-family: 'Lato';
+    font-family:'sans-serif';
     font-weight: 400;
   }
   
   .form-control, 
   textarea {
     max-width: 400px;
-    background-color: #e1d3d3;
+    background-color: #000;
     color: #fff;
     letter-spacing: 1px;
   }
@@ -288,7 +269,7 @@ footer {
   .send-text {
     display: block;
     margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
+    font: 700 12px  sans-serif;
     letter-spacing: 2px;
   }
   
@@ -314,7 +295,7 @@ footer {
   }
   
   .contact-text {
-    font: 300 18px  sans-serif;
+    font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
     color: #bbb;
   }
@@ -346,7 +327,7 @@ footer {
   /* Social Media Icons */
   .social-media-list {
     position: relative;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -374,6 +355,8 @@ footer {
   .social-media-list li:after {
     content: '';
     position: absolute;
+    top: 0;
+    left: 0;
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -384,7 +367,7 @@ footer {
   }
   
   .social-media-list li:hover {
-    background-color: #f1e3ea; 
+    background-color: #fff; 
   }
   
   .social-media-list li:hover:after {
@@ -397,21 +380,13 @@ footer {
     color: #000;
   }
   
-  /* .copyright {
-    font: 200 14px 'Oswald', sans-serif;
+  .copyright {
+    font: 200 14px  sans-serif;
     color: #555;
     letter-spacing: 1px;
     text-align: center;
   }
-   */
-  /* hr {
-    border-color: rgba(255,255,255,.6);
-  } */
   
-.fa-instragram {
- font-size: 12px;
-}
-
   /* Begin Media Queries*/
   @media screen and (max-width: 850px) {
     .contact-wrapper {
